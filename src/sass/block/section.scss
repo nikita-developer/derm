@@ -10,6 +10,24 @@
         background-repeat: no-repeat;
         background-position: center top;
     }
+
+    &_facts {
+        background-image: url("../media/section/facts.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &_problems {
+        background-image: url("../media/section/problems.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+    &_help {
+        background-image: url("../media/section/help.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
 }
 
 .section__title {
@@ -22,6 +40,15 @@
     .section {
         &_face {
             padding-bottom: 110px;
+        }
+
+        &_problems {
+            background-image: url("../media/section/problems-1030.jpg");
+            background-position: center top;
+        }
+
+        &_help {
+            background-size: cover;
         }
     }
 
@@ -37,6 +64,19 @@
             padding-bottom: 60px;
             background-color: #e2e8dc;
             background-image: none;
+        }
+
+        &_facts {
+            background-image: url("../media/section/facts-768.jpg");
+            background-size: cover;
+        }
+
+        &_problems {
+            background-image: url("../media/section/problems-768.jpg");
+        }
+
+        &_help {
+            background-image: url("../media/section/help-768.jpg");
         }
     }
 }
