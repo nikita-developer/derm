@@ -28,6 +28,13 @@
         background-repeat: no-repeat;
         background-position: center bottom;
     }
+
+    &_ingredients {
+        background-image: url("../media/section/ingredients.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
 }
 
 .section__title {
