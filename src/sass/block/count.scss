@@ -21,7 +21,7 @@
     border: 1px solid #000;
     border-radius: 4px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.078);
-    transition: .3s background-position-x;
+    transition: .3s !important;
 
     &:hover {
         &:first-child {
