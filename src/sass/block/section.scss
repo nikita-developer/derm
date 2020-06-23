@@ -35,6 +35,13 @@
         background-position: center center;
         background-size: cover;
     }
+
+    &_research {
+        background-image: url("../media/section/research.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
 }
 
 .section__title {
@@ -84,6 +91,10 @@
 
         &_help {
             background-image: url("../media/section/help-768.jpg");
+        }
+
+        &_research {
+            background-image: url("../media/section/research-768.jpg");
         }
     }
 }
