@@ -5,7 +5,7 @@
 
     &_face {
         padding-top: 10px;
-        padding-bottom: 160px;
+        padding-bottom: 100px;
         background-image: url("../media/section/face.jpg");
         background-repeat: no-repeat;
         background-position: center top;
@@ -110,6 +110,14 @@
     .section {
         &_problems {
             padding-bottom: 0;
+            background: none;
+        }
+
+        &_facts {
+            background-color: #e7d8c1;
+            background-image: url("../media/section/facts-480.jpg");
+            background-position: right bottom;
+            background-size: auto;
         }
     }
 }

@@ -62,11 +62,19 @@
     line-height: 1;
     color: #2d2d2d;
     text-transform: uppercase;
+
+    & span {
+        display: block;
+    }
 }
 
 .ingredients__description {
     font-size: 17px;
     line-height: 22px;
+
+    & span {
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
@@ -76,11 +84,5 @@
                 transform: rotateY(360deg);
             }
         }
-    }
-}
-
-@media (max-width: 480px) {
-    .ingredients__item {
-        width: 100%;
     }
 }

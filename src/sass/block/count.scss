@@ -1,9 +1,13 @@
 
 .count__title {
+    max-width: 780px;
+    margin-right: auto;
     margin-bottom: 30px;
+    margin-left: auto;
     font-size: 104px;
     line-height: 89px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .count__item {
