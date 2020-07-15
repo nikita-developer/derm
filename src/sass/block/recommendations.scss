@@ -74,7 +74,17 @@
     }
 
     .recommendations__human {
-        display: none;
+        left: 0;
+        max-width: 120px;
+    }
+
+    .recommendations__footer {
+        margin-left: 80px;
+    }
+
+    .recommendations__id {
+        min-width: auto;
+        max-width: 90px;
     }
 
     .recommendations__info {
@@ -103,11 +113,17 @@
     }
 
     .recommendations__footer {
-        margin-top: 30px;
+        flex-direction: column-reverse;
+        margin-top: 25px;
+        margin-left: 125px;
     }
 
     .recommendations__name {
         font-size: 14px;
+    }
+
+    .recommendations__human {
+        bottom: -34px;
     }
 
     .recommendations__id {

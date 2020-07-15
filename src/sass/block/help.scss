@@ -115,10 +115,17 @@
     }
 
     .help__product {
+        bottom: -20px;
+        left: 50%;
+        max-width: 120px;
+        margin-left: -60px;
+        transform: translateX(-50%);
+
         &::before {
-            left: -52px;
-            width: 270px;
-            height: 204px;
+            bottom: 5px;
+            left: -22px;
+            width: 145px;
+            height: 110px;
         }
     }
 }

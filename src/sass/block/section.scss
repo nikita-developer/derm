@@ -108,15 +108,25 @@
 
 @media (max-width: 480px) {
     .section {
+        padding-top: 34px;
+        padding-bottom: 34px;
+
         &_problems {
             padding-bottom: 0;
             background: none;
+            background-image: url("../media/section/problems-480.jpg");
         }
 
         &_facts {
             background-color: #e7d8c1;
             background-image: url("../media/section/facts-480.jpg");
             background-position: right bottom;
+            background-size: auto;
+        }
+
+        &_help {
+            background-image: url("../media/section/help-480.jpg");
+            background-position: center bottom;
             background-size: auto;
         }
     }
